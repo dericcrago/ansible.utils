@@ -85,8 +85,6 @@ try:
     from setuptools.extern.packaging.version import parse
     from setuptools.extern.packaging.version import LegacyVersion
     from setuptools.extern.packaging.version import Version
-
-
     HAS_PEP440 = True
 except ImportError:
     HAS_PEP440 = False
